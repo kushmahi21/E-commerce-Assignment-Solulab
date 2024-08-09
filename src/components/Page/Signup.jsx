@@ -1,9 +1,9 @@
-import Sideimg from "../img/SideImage.png";
+import Sideimg from "../../img/SideImage.png";
 import { Link } from "react-router-dom";
 
-const LoginPage = () => {
+const Signup = () => {
   return (
-    <div className="min-h-screen text-gray-900 flex py-12 ">
+    <div className="min-h-screen text-gray-900 flex py-[8.75rem] ">
       <div className=" flex flex-1">
         <div className="flex-1  text-center hidden lg:flex lg:w-7/12">
           <div
@@ -86,4 +86,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Signup;
