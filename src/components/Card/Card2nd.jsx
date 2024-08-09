@@ -13,8 +13,8 @@ const Card2nd = ({ product }) => {
   return (
     <div className="flex flex-wrap gap-6 justify-center">
       {product.map((item, i) => (
-        <div key={i} className="flex flex-col justify-between rounded-lg overflow-hidden w-[270px] group border border-gray-200 shadow-sm">
-          <div className="relative flex justify-center h-[250px] items-center bg-neutral-100">
+        <div key={i} className="flex flex-col justify-between rounded-lg overflow-hidden w-[270px] border border-gray-200 shadow-sm">
+          <div className="relative flex justify-center h-[250px] items-center bg-neutral-100 group">
             <img src={item.image} alt={item.title} className="h-[180px] mix-blend-multiply" />
             <div className="absolute top-2 right-2 flex flex-col items-center space-y-2">
               <button className="bg-white p-1 rounded-full shadow-md">
@@ -24,7 +24,7 @@ const Card2nd = ({ product }) => {
                 <PiEyeThin className="w-6 h-6" />
               </button>
             </div>
-            <button className="absolute bottom-0 left-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <button className="absolute bottom-0 left-0 w-full bg-black text-white py-2 opacity-0 group-hover:!opacity-100 transition-opacity duration-300">
               Add to Cart
             </button>
           </div>
