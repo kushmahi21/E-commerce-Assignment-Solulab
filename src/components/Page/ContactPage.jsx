@@ -4,7 +4,7 @@ import { HiHome } from "react-icons/hi";
 
 const ContactPage = () => {
   return (
-      <div>
+      <div className="">
         <Breadcrumb aria-label="Default breadcrumb example" className="mt-20 ml-32">
           <Breadcrumb.Item href="/" icon={HiHome}>
             Home

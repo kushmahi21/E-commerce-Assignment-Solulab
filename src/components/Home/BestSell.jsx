@@ -30,7 +30,7 @@ const BestSell = () => {
 
   
   return (
-    <div className="relative w-[1170px] h-[518px] ml-[135px] mt-[70px]">
+    <div className="relative max-w-6xl mx-auto mt-[70px]">
       <div className="flex items-center mb-6">
         <div className="flex items-center">
         <div className="w-5 h-10 bg-red-600 mr-3"></div>

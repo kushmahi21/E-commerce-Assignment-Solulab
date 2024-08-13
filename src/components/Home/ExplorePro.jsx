@@ -52,7 +52,7 @@ const ExplorePro = () => {
   };
   
   return (
-    <div className="max-w-7xl mx-[135px]  my-[4.438rem] mb-[140px]">
+    <div className="max-w-6xl mx-auto mb-[120px]">
       <div className="flex items-center mb-6">
         <div className="flex items-center">
           <div className="w-5 h-10 bg-red-600 mr-3"></div>

@@ -29,7 +29,7 @@ const Banner = () => {
   });
 
   return (
-    <div className="flex flex-row justify-between max-w-7xl mx-auto h-[500px] px-4 bg-black  my-[140px]">
+    <div className="flex flex-row justify-between max-w-6xl mx-auto px-4 bg-black  my-[80px]">
       <div className="w-1/2 flex flex-col justify-evenly ml-14 my-16">
         <p className="font-poppins font-semibold text-base leading-5 text-[#00FF66]">
           Categories

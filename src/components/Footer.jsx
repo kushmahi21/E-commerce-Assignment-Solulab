@@ -13,7 +13,7 @@ import { VscSend } from "react-icons/vsc";
 const Footer = () => {
   return (
     <footer className="w-full  bg-black text-white flex flex-col">
-      <div className="flex flex-row text-white justify-evenly px-[135px] py-20 gap-28 border-b">
+      <div className="flex flex-row text-white  max-w-6xl mx-auto py-20 gap-20">
         {/* Exclusive Section */}
         <div>
           <h2 className="text-lg font-semibold mb-4 font-inter">Exclusive</h2>
@@ -23,9 +23,9 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Enter your email"
-              className="w-full px-4 py-2 bg-black text-xs text-white border rounded-md placeholder-opacity-50 placeholder-white"
+              className="w-full px-1 py-2 bg-black text-xs text-white border rounded-md placeholder-opacity-50 placeholder-white"
             />
-            <button className="absolute inset-y-0 right-0 flex items-center px-3">
+            <button className="absolute inset-y-0 right-0 flex items-center px-1">
               <VscSend className="h-5 w-5 text-white" />
             </button>
           </div>
@@ -136,7 +136,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center py-3 ">
+      <div className="!text-center !py-3 border-t border-t-[rgba(255,255,255,0.2)] ">
         <p className="opacity-30 text-xs">
           &copy; Copyright Rimel 2022. All right reserved
         </p>

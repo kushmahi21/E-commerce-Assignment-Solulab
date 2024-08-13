@@ -17,6 +17,7 @@ const Navbar = () => {
  
 
   return (
+    <div className="">
     <nav className="bg-white w-full mx-auto">
       <div className="w-full h-12 flex bg-black text-white items-center">
         <span className="flex justify-center w-11/12">
@@ -37,22 +38,22 @@ const Navbar = () => {
         <div>
           <ul className="hidden space-x-8 sm:flex font-poppin font-normal text-base">
             <li className="hover:border-b border-black">
-              <Link to="/" className="text-gray-700 hover:text-blue-500">
+              <Link to="/" className="text-gray-700 ">
                 Home
               </Link>
             </li>
             <li className="hover:border-b border-black">
-              <Link to="/ContactPage" className="text-gray-700 hover:text-blue-500">
+              <Link to="/ContactPage" className="text-gray-700 ">
                 Contact
               </Link>
             </li>
             <li className="hover:border-b border-black">
-              <Link to="/AboutPage" className="text-gray-700 hover:text-blue-500">
+              <Link to="/AboutPage" className="text-gray-700 ">
                 About
               </Link>
             </li>
             <li className="hover:border-b border-black">
-              <Link to="/Signup" className="text-gray-700 hover:text-blue-500">
+              <Link to="/Signup" className="text-gray-700 ">
                 Sign up
               </Link>
             </li>
@@ -89,6 +90,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 

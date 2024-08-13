@@ -7,7 +7,7 @@ import {
 
 const LastHome = () => {
   return (
-    <div className="flex justify-between py-[140px] mx-auto max-w-4xl">
+    <div className="flex justify-between my-[140px] mx-auto max-w-6xl">
         <div className="text-center flex flex-col items-center ">
           <div className="mb-6 p-3 bg-black  rounded-full shadow-[0px_0px_0_8px_rgba(0,0,0,0.3)]">
             <FaShippingFast className="text-4xl  text-white  " />

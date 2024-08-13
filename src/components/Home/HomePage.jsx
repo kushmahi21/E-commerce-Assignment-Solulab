@@ -2,7 +2,7 @@ import Frame from "../../img/Frame1.png";
 
 const HomePage = () => {
   return (
-    <div className="max-w-7xl mx-auto flex">
+    <div className="max-w-6xl mx-auto flex">
       <aside className="w-2/12 py-10 pr-4 border-r-[0.5px] border-r-black border-opacity-30">
         <ul className="">
           <li className="my-2">

@@ -6,7 +6,7 @@ import Gucci from "../../img/gucci.png";
 
 const Newarrival = () => {
   return (
-    <div className="mx-[135px]">
+    <div className="max-w-6xl mx-auto">
       <div className="relative w-[73.125rem] h-[48rem]">
         <div className="flex items-center mb-6">
           <div className="flex items-center">

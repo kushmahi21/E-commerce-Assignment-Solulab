@@ -22,8 +22,8 @@ import { HiHome } from "react-icons/hi";
 
 const AboutPage = () => {
   return (
-    <div>
-    <div className="mt-20 ml-36">
+    <div className="">
+    <div className="mt-20 max-w-6xl mx-auto">
       <Breadcrumb aria-label="Default breadcrumb example">
         <Breadcrumb.Item href="/" icon={HiHome}>
           Home
@@ -31,8 +31,9 @@ const AboutPage = () => {
         <Breadcrumb.Item href="/AboutPage">About Page</Breadcrumb.Item>
       </Breadcrumb>
       </div>
-      <div className="flex flex-row bg-white justify-between mt-11">
-        <div className="mb-6 ml-[135px] w-[525px] h-[336px] mt-[137px]">
+
+      <div className="flex flex-row bg-white  mt-11 max-w-[83.5rem] ml-auto justify-between">
+        <div className="mb-6 mt-[137px] w-5/12 " >
           <h2 className="text-3xl font-bold mb-4">Our Story</h2>
           <p className="text-gray-700 mb-4 leading-[26px]">
             Launched in 2015, Exclusive is South Asia’s premier online shopping
@@ -47,18 +48,18 @@ const AboutPage = () => {
             ranging from consumer goods to services.
           </p>
         </div>
-        <div>
+        <div className="w-6/12">
           <img
             src={Aboutimg1}
             alt="Two women shopping"
-            className="w-[709px] h-[609px]"
+            className="w-full h-auto"
           />
         </div>
       </div>
 
       {/* information card */}
 
-      <div className="flex justify-evenly items-center mb-8 mt-[140px] px-36">
+      <div className="flex justify-evenly items-center mb-8 mt-[140px] max-w-6xl mx-auto">
         <div className="group w-[270px] h-[230px] p-6 border rounded-lg flex flex-col items-center justify-center text-gray-800 hover:bg-red-500 ">
           <div className="mb-6 p-3 items-center bg-black rounded-full shadow-[0px_0px_0_8px_rgba(0,0,0,0.3)] group-hover:shadow-[0px_0px_0_8px_rgba(255,251,251,0.4)] group-hover:!bg-white ">
             <FaStore className="text-3xl mb-1 text-white group-hover:!text-black group-hover:!border group-hover:!border-black group-hover:!rounded-full group-!hover:p-1 group-hover:!w-[30px] group-hover:!h-[30px]" />
@@ -95,7 +96,7 @@ const AboutPage = () => {
       </div>
       
       {/* Profile Card */}
-      <div className="flex flex-row justify-evenly mx-[135px] mt-[140px] gap-4  h-[564px]">
+      <div className="flex flex-row justify-evenly mx-auto max-w-6xl my-[140px]  gap-4 ">
         <div className="flex flex-col items-center justify-center w-[370px] h-[430px] gap-8">
           <div>
             <img
@@ -168,7 +169,7 @@ const AboutPage = () => {
 
       {/* Last part */}
 
-      <div className="flex justify-between py-[8.75rem] mx-auto max-w-4xl">
+      <div className="flex justify-between py-[8.75rem] mx-auto max-w-6xl">
         <div className="text-center flex flex-col items-center ">
           <div className="mb-6 p-3 bg-black  rounded-full shadow-[0px_0px_0_8px_rgba(0,0,0,0.3)]">
             <FaShippingFast className="text-4xl  text-white  " />
@@ -197,3 +198,6 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
+
+

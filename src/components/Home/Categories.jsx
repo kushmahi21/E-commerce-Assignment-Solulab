@@ -11,7 +11,7 @@ import {
 
 const Categories = () => {
   return (
-    <div className="relative w-[1170px] h-[400px] left-[135px] gap-[60px] p-6 border-b">
+    <div className="relative max-w-6xl mx-auto gap-[60px] py-6 border-b">
       <div className="flex items-center mb-6">
         <div className="flex items-center">
         <div className="w-5 h-10 bg-red-600 mr-3"></div>

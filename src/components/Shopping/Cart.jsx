@@ -115,8 +115,8 @@ const Cart = () => {
   // );
 
   return (
-    <div>
-      <div className="mt-20 ml-36">
+    <div className="max-w-6xl mx-auto">
+      <div className="mt-20 ">
         <Breadcrumb aria-label="Default breadcrumb example">
           <Breadcrumb.Item href="/" icon={HiHome} className="font-poppin font-normal text-base">
             Home
@@ -124,7 +124,7 @@ const Cart = () => {
           <Breadcrumb.Item href="" className="font-poppin font-normal text-base">Cart Page</Breadcrumb.Item>
         </Breadcrumb>
       </div>
-      <div className="max-w-7xl mx-auto my-36">
+      <div className="my-36">
         <div className="bg-white rounded-lg overflow-hidden">
           <table className="min-w-full leading-normal">
             <thead className="shadow-2xl">
