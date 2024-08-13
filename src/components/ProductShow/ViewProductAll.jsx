@@ -30,13 +30,10 @@ const ViewProductAll = () => {
       setHasMore(false);
       return;
     }
-    setTimeout(() => {
-      setVisibleProducts((prev) =>
-        prev.concat(
-          products.slice(prev.length, prev.length + ITEMS_PER_PAGE)
-        )
-      );
-    }, 1500);
+
+    setVisibleProducts((prev) =>
+      prev.concat(products.slice(prev.length, prev.length + ITEMS_PER_PAGE))
+    );
   };
 
   if (status === "loading..") {
@@ -50,7 +47,7 @@ const ViewProductAll = () => {
         <Breadcrumb.Item href="/" icon={HiHome}>
           Home
         </Breadcrumb.Item>
-        <Breadcrumb.Item href="/ViewProoductAll">Prdouct Page</Breadcrumb.Item>
+        <Breadcrumb.Item href="/ViewProoductAll">Product Page</Breadcrumb.Item>
       </Breadcrumb>
       </div>
     <div className="max-w-7xl mx-auto h-auto my-12 gap-6">

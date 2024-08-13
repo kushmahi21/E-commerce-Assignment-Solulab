@@ -74,3 +74,6 @@ const Card = ({ product, CustomArrowLeft, CustomArrowRight}) => {
 };
 
 export default Card;
+
+
+

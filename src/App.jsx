@@ -15,6 +15,7 @@ import ProductDetails from './components/ProductShow/ProductDetails';
 import ViewProductAll from './components/ProductShow/ViewProductAll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from './scrollToTop';
+import ErrorPage from './components/Page/ErrorPage';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
       <Route path="/Account" element={<Account/>}/>
       <Route path="/ProductDetails/:id" element={<ProductDetails/>}/>
       <Route path="/ViewProoductAll" element={<ViewProductAll/>}/>
-
+      <Route path="/Errorpage" element={<ErrorPage/>}/>
     </Routes>
     <ScrollToTop/>
     <Footer/>

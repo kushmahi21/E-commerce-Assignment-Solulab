@@ -60,8 +60,8 @@ const AboutPage = () => {
 
       <div className="flex justify-evenly items-center mb-8 mt-[140px] px-36">
         <div className="group w-[270px] h-[230px] p-6 border rounded-lg flex flex-col items-center justify-center text-gray-800 hover:bg-red-500 ">
-          <div className="mb-6 p-3 bg-black rounded-full shadow-[0px_0px_0_8px_rgba(0,0,0,0.3)] group-hover:shadow-[0px_0px_0_8px_rgba(255,251,251,0.4)] group-hover:!bg-white ">
-            <FaStore className="text-3xl mb-1 text-white group-hover:!text-black" />
+          <div className="mb-6 p-3 items-center bg-black rounded-full shadow-[0px_0px_0_8px_rgba(0,0,0,0.3)] group-hover:shadow-[0px_0px_0_8px_rgba(255,251,251,0.4)] group-hover:!bg-white ">
+            <FaStore className="text-3xl mb-1 text-white group-hover:!text-black group-hover:!border group-hover:!border-black group-hover:!rounded-full group-!hover:p-1 group-hover:!w-[30px] group-hover:!h-[30px]" />
           </div>
           <p className="text-2xl font-bold group-hover:text-white">10.5k</p>
           <p className="group-hover:text-white">Sellers active on our site</p>

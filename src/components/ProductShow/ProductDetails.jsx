@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 import { GiReturnArrow } from "react-icons/gi";
 import { TbTruckDelivery } from "react-icons/tb";
-import axios from "axios";
 import { useParams } from "react-router-dom";
 import { Breadcrumb } from "react-bootstrap";
 import { HiHome } from "react-icons/hi";
