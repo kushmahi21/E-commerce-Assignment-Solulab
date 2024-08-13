@@ -13,12 +13,12 @@ import { VscSend } from "react-icons/vsc";
 const Footer = () => {
   return (
     <footer className="w-full  bg-black text-white flex flex-col">
-      <div className="flex flex-row text-white  max-w-6xl mx-auto py-20 gap-20">
+      <div className="flex flex-row text-white  max-w-6xl mx-auto py-20 gap-24">
         {/* Exclusive Section */}
         <div>
           <h2 className="text-lg font-semibold mb-4 font-inter">Exclusive</h2>
-          <p className="mb-4">Subscribe</p>
-          <p className="mb-4">Get 10% off your first order</p>
+          <p className="mb-4 font-normal text-base font-poppin">Subscribe</p>
+          <p className="mb-4 font-normal text-base font-poppin">Get 10% off your first order</p>
           <div className="relative w-4/5">
             <input
               type="text"
@@ -34,23 +34,23 @@ const Footer = () => {
         {/* Support Section */}
         <div>
           <h2 className="text-lg font-semibold mb-4">Support</h2>
-          <p className="mb-2">
+          <p className="mb-2 font-normal text-base font-poppin">
             111 Bijoy sarani, Dhaka,
             <br /> DH 1515, Bangladesh.
           </p>
-          <p className="mb-2">exclusive@gmail.com</p>
-          <p className="mb-2">+88015-88888-9999</p>
+          <p className="mb-2 font-normal text-base font-poppin">exclusive@gmail.com</p>
+          <p className="mb-2 font-normal text-base font-poppin">+88015-88888-9999</p>
         </div>
 
         {/* Account Section */}
         <div>
           <h2 className="text-lg font-semibold mb-4">Account</h2>
           <ul>
-            <li className="mb-2">My Account</li>
-            <li className="mb-2">Login / Register</li>
-            <li className="mb-2">Cart</li>
-            <li className="mb-2">Wishlist</li>
-            <li className="mb-2">Shop</li>
+            <li className="mb-2 font-normal text-base font-poppin">My Account</li>
+            <li className="mb-2 font-normal text-base font-poppin">Login / Register</li>
+            <li className="mb-2 font-normal text-base font-poppin">Cart</li>
+            <li className="mb-2 font-normal text-base font-poppin">Wishlist</li>
+            <li className="mb-2 font-normal text-base font-poppin">Shop</li>
           </ul>
         </div>
 
@@ -58,10 +58,10 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold mb-4">Quick Link</h2>
           <ul>
-            <li className="mb-2">Privacy Policy</li>
-            <li className="mb-2">Terms Of Use</li>
-            <li className="mb-2">FAQ</li>
-            <li className="mb-2">Contact</li>
+            <li className="mb-2 font-normal text-base font-poppin">Privacy Policy</li>
+            <li className="mb-2 font-normal text-base font-poppin">Terms Of Use</li>
+            <li className="mb-2 font-normal text-base font-poppin">FAQ</li>
+            <li className="mb-2 font-normal text-base font-poppin">Contact</li>
           </ul>
         </div>
 
@@ -69,7 +69,7 @@ const Footer = () => {
         <div>
           <div>
             <h2 className="text-lg font-semibold mb-4">Download App</h2>
-            <p className="mb-4 text-xs">Save $3 with App New User Only</p>
+            <p className="mb-4 font-normal text-base font-poppin">Save $3 with App New User Only</p>
           </div>
 
           <div className="flex flex-row justify-evenly gap-2">

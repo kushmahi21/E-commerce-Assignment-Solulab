@@ -5,9 +5,9 @@ import {
   FaTabletAlt,
   FaHeadphones,
   FaGamepad,
-  FaArrowLeft,
-  FaArrowRight,
 } from "react-icons/fa";
+
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 
 const Categories = () => {
   return (
@@ -27,10 +27,10 @@ const Categories = () => {
       </div>
       <div className="absolute top-4 right-4 flex space-x-2">
         <button className="p-2 bg-gray-200 rounded-full">
-          <FaArrowLeft className="w-6 h-6" />
+          <IoIosArrowRoundBack className="w-6 h-6" />
         </button>
         <button className="p-2 bg-gray-200 rounded-full">
-          <FaArrowRight className="w-6 h-6" />
+          <IoIosArrowRoundForward className="w-6 h-6" />
         </button>
       </div>
       <div className="flex space-x-4 justify-center">

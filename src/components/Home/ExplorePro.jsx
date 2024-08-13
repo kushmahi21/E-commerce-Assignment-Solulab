@@ -1,9 +1,10 @@
-import Card from "../Card/Card";
 import { useEffect } from "react";
 import { fetchProduct } from "../redux/ProductSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import {  useNavigate } from "react-router-dom";
+import Card from "../Card/Card";
+
 
 const ExplorePro = () => {
   const CustomArrowLeft = ({ onClick }) => {
@@ -12,7 +13,7 @@ const ExplorePro = () => {
         onClick={onClick}
         className="absolute -top-[4.5rem] right-[175px] z-10 p-2 bg-gray-200 rounded-full"
       >
-        <FaArrowLeft className="w-6 h-6" />
+        <IoIosArrowRoundBack className="w-6 h-6" />
       </button>
     );
   };
@@ -23,7 +24,7 @@ const ExplorePro = () => {
         onClick={onClick}
         className="absolute -top-[4.5rem] right-[120px] z-10 p-2 bg-gray-200 rounded-full"
       >
-        <FaArrowRight className="w-6 h-6" />
+        <IoIosArrowRoundForward className="w-6 h-6" />
       </button>
     );
   };

@@ -4,15 +4,20 @@ import { HiHome } from "react-icons/hi";
 
 const ContactPage = () => {
   return (
-      <div className="">
-        <Breadcrumb aria-label="Default breadcrumb example" className="mt-20 ml-32">
+    <div className="max-w-6xl mx-auto">
+      <div className="mt-20">
+        <Breadcrumb
+          aria-label="Default breadcrumb example"
+          className="mt-20 "
+        >
           <Breadcrumb.Item href="/" icon={HiHome}>
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item href="">Contact Page</Breadcrumb.Item>
         </Breadcrumb>
+      </div>
       <div className="min-h-screen flex justify-center items-center mb-36 px-36">
-        <div className="flex flex-wrap justify-center md:justify-between max-w-9xl">
+        <div className="flex justify-center md:justify-between max-w-9xl">
           {/* Call To Us and Write To Us Section */}
           <div className="bg-white shadow-md rounded-tl-sm p-10 w-full md:w-[340px] h-auto mb-8 md:mb-0 md:mr-8">
             {/* Call To Us */}

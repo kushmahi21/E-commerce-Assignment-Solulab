@@ -1,6 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import Card from "../Card/Card";
 import Timer from "../timer";
 import { useNavigate } from "react-router-dom";
@@ -14,7 +14,7 @@ const ProductListUI = ({ product }) => {
         onClick={onClick}
         className="absolute -top-[4.5rem] right-[175px] z-10 p-2 bg-gray-200 rounded-full"
       >
-        <FaArrowLeft className="w-6 h-6" />
+        <IoIosArrowRoundBack className="w-6 h-6" />
       </button>
     );
   };
@@ -25,7 +25,7 @@ const ProductListUI = ({ product }) => {
         onClick={onClick}
         className="absolute -top-[4.5rem] right-[120px] z-10 p-2 bg-gray-200 rounded-full"
       >
-        <FaArrowRight className="w-6 h-6" />
+        <IoIosArrowRoundForward className="w-6 h-6" />
       </button>
     );
   };
